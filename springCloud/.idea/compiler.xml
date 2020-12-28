@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-user" />
+        <module name="provide-ticket" />
+        <module name="eureka-server" />
+        <module name="provider-getway" />
+        <module name="provider-alibaba-ticket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-user" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server9000" target="1.8" />
+      <module name="provide-ticket" target="1.8" />
+      <module name="provider-alibaba-ticket" target="1.8" />
+      <module name="provider-getway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-user" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server9000" options="-parameters" />
+      <module name="provide-ticket" options="-parameters" />
+      <module name="provider-alibaba-ticket" options="-parameters" />
+      <module name="provider-getway" options="-parameters" />
+    </option>
+  </component>
+</project>

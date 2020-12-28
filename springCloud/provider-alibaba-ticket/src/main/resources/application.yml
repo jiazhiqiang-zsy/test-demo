@@ -1,0 +1,9 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: provider-alibaba-ticket
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.8.207.195:8848
